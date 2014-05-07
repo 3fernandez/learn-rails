@@ -1,4 +1,4 @@
 Learning Rails
 ==
 
-Learning Rails by doing a simple project.
+Learning Rails by doing a simple rails app.
