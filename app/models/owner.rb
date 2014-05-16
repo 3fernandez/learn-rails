@@ -8,6 +8,7 @@ class Owner
 	end
 
 	def countdown
+		#Rails.logger.debug "\033[1;31;47m[DEBUG]\033[0m " + 'entering countdown method...'
 		today = Date.today
 		birthday = Date.new(today.year, birthdate.month, birthdate.day)
 		if birthday > today
