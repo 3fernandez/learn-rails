@@ -21,9 +21,9 @@ class Contact < ActiveRecord::Base
 			ss = connection.create_spreadsheet('Learn-Rails-Example')
 		end
 		ws = ss.worksheets[0]
-		Rails.logger.debug "ALERT: First ws.num_rows #{ws.num_rows}"
+		#Rails.logger.debug "ALERT: First ws.num_rows #{ws.num_rows}"
 		last_row = 1 + ws.num_rows
-		Rails.logger.debug "ALERT: Second last_row #{last_row}"
+		#Rails.logger.debug "ALERT: Second last_row #{last_row}"
 		ws[last_row, 1] = Time.new
 		ws[last_row, 2] = self.name
 		ws[last_row, 3] = self.email
