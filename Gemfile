@@ -4,7 +4,8 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Moved to development group
+
 # Use rails_layout to generate files to an application layout
 gem 'rails_layout'
 # Use SCSS for stylesheets
@@ -50,6 +51,7 @@ gem 'simple_form'
 gem 'zurb-foundation'
 
 group :development do
+	gem 'sqlite3'
 	gem 'better_errors'
 	gem 'quiet_assets'
 	gem 'rails_layout'
