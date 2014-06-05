@@ -1,4 +1,3 @@
-<script type="text/javascript">
 // Create a queue, but don't obliterate an existing one!
 window.analytics = window.analytics || [];
 
@@ -67,4 +66,3 @@ $(document).on('ready page:change', function() {
 	analytics.trackForm($('#new_visitor'), 'Signed Up');
 	analytics.trackForm($('#new_contact'), 'Contact Request');
 })
-</script>
