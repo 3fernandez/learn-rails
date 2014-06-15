@@ -50,11 +50,16 @@ gem 'high_voltage'
 gem 'simple_form'
 gem 'zurb-foundation'
 
+group :test do
+	gem 'rspec-rails'
+	gem 'guard'
+	gem 'guard-rspec'
+end
+
 group :development do
 	gem 'sqlite3'
 	gem 'better_errors'
 	gem 'quiet_assets'
-	gem 'rails_layout'
 end
 
 group :production do
