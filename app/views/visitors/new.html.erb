@@ -1,17 +1,17 @@
 <% content_for :title do %>Euclides Fernandes<% end %>
 <% content_for :description do %>Website of Euclides Fernandes<% end %>
 <section>
-	<img src="http://lorempixel.com/output/city-q-c-1170-600-6.jpg">
+	<img src="https://dl.dropboxusercontent.com/u/17609865/public_assets/railsway.jpg">
 </section>
 <section>
 	<div class="column">
-		<h2>Stay in touch.</h2>
+		<h2>Get in touch.</h2>
 	</div>
 	<div class="column">
 		<div class="form-centered">
 			<%= simple_form_for @visitor do |f| %>
 				<%= f.error_notification %>
-				<%= f.input :email, label: false, :placeholder => 'Your email address...' %><br/>
+				<%= f.input :email, label: false, :placeholder => 'Your email address...' %>
 				<%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
 			<% end %>
 		</div>
